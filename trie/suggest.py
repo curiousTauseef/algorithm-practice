@@ -2,9 +2,6 @@ import re
 from trie import Trie
 
 
-
-
-
 def parse_words(text):
     return re.findall(r'\w+', text.lower())
 
