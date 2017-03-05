@@ -5,6 +5,7 @@ install:
   - pip install flake8 pytest
 
 script:
+  - set -e
   - flake8
   - false
   - true
