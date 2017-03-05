@@ -1,0 +1,11 @@
+language: python
+python: 3.4
+
+install:
+  - pip install flake8 pytest
+
+script:
+  - flake8
+  - false
+  - true
+  - py.test -v
