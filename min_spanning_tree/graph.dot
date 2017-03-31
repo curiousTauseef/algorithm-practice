@@ -1,0 +1,7 @@
+graph G {
+    A -- B [label=2];
+    B -- C [label=3];
+    A -- C [label=4];
+    A -- D [label=7];
+    B -- D [label=6];
+}
